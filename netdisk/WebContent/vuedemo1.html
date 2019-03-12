@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>vue测试</title>
+<script type="text/javascript" src="statics/libs/vue.min.js"></script>
+</head>
+<body>
+	<div id="app1">
+	 	<p>{{hello}}</p>
+	 	
+	 </div>
+	 <div id="app2">
+	 	<p>您的智商为{{count}}</p>
+	 	<button @click="count=count+1">点我,增加智商</button>
+	 	
+	 </div>
+	 <script>
+	 var app2 = new Vue({
+		 el:"#app2",
+		 data:{
+			 count : 0
+		 }
+	 });
+	 var opts ={
+			 el:"#app1",
+			 data:{
+				 hello:"弟弟"
+			 }
+	 }; 	
+	 var app = new Vue(opts);
+	 
+	 
+	 </script>
+</body>
+</html>

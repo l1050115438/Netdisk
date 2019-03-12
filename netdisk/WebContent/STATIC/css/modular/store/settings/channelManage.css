@@ -1,0 +1,22 @@
+.channel_con{
+	    height: 55px;
+}
+.m-b6{
+	    margin-bottom: 6px;
+}
+.hint {
+    color: #999;
+}
+#floor_list li{
+	background: url(../../../../images/store/channel_img.gif) no-repeat 0 0;
+    display: block;
+    width: 320px;
+    height: 123px;
+    clear: both;
+    border: dotted 1px #E6E6E6;
+    margin-bottom: 6px;
+	
+}
+.pd-top15{
+	padding-top: 15px;
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/*店铺管理*/
+.shop-logo {
+	display: inline-block;
+}
+.shop-logo img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.content-header > h1 > i {
+	cursor: pointer;
+}
+
+.papers-img {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.papers-img img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.control-label .required {
+    color: #e02222;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.radio label {
+    padding-left: 0px;
+}
+.area {
+    width: 80%;
+    height: 60px;
+}
+
+
+/****自营店铺********/
+.control-label.l-prompt {
+    color: #999;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.p-yi{
+	margin-left:25%;
+}
+
+.raTop{
+	padding-top: 5px;
+}
+
+
+#default-img{
+    display: flex;
+    flex-direction: column;
+}
+#default-img label{
+    width: 94px;
+    margin: 0;
+}
+#uploadifive-threeImage0,
+#uploadifive-threeImage1,
+#uploadifive-threeImage2,
+#uploadifive-threeImage3{
+    width: 94px !important;
+    height: 34px !important;
+    text-align: left !important;
+}
+#uploadifive-threeImage0 a,
+#uploadifive-threeImage1 a,
+#uploadifive-threeImage2 a,
+#uploadifive-threeImage3 a{
+    width: 94px !important;
+}
+input[type=file]{
+    left: 0 !important;
+    width: 94px !important;
+}
+
+.categoryList{
+    border: 1px solid #d2d6de;
+    padding: 5px 10px;
+}
+.categoryList label{
+    font-weight: normal;
+    margin: 5px !important;
+    cursor: pointer;
+}
+.iradio_flat-green,
+.categoryList .icheckbox_flat-green{
+    margin-right: 0;
+}
+
+#container{
+    width: 100%;
+    height: 500px;
+}
+#category-error{
+    color: #a94442;
+}

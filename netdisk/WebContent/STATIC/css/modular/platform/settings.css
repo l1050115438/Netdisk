@@ -1,0 +1,198 @@
+@charset "utf-8";
+/*站点设置*/
+.form-group.site-close {
+    display: none;
+}
+.upload-lable {
+	display: inline-block;
+}
+.upload-img {
+	position: relative;
+	width: 100%;
+    cursor: pointer;
+}
+.upload-img .default-image {
+    width: 100%;
+    height: 100%;
+}
+.upload-img .image img{
+    width: 100%;
+    height: 280px;
+}
+.upload-img .cover {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    display: none;
+    top: 0;
+    opacity: 0.4;
+}
+
+.upload-img .close {
+	display: none;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	opacity: 1;
+}
+.btn-upload {
+	width: 100%;
+    margin-top: 20px;
+}
+
+#sliderImg {
+	display: none;
+}
+
+.wp100 {
+    width: 100%;
+}
+
+
+/*上传设置*/
+.tab-pane .box.box-primary.bg-gray{
+	background: #f4f4f4 !important;
+}
+.default-img {
+	float: left;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.default-img img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.upload-default {
+	height: 100px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+.upload-default p.text1 {
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+.upload-default p.text2 {
+	margin-bottom: 0px;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #999;
+}
+
+
+/*邮件设置*/
+.control-label.required {
+    color: #e02222;
+    font-size: 12px;
+    line-height: 34px;
+}
+.note-editor {
+    height: auto !important;
+    min-height: 100px;
+    border: solid 1px #e5e6e7;
+}
+
+/*权限设置*/
+.control-label.l-prompt {
+    color: #999;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.ncap-form-all {
+    padding: 10px 0;
+}
+.ncap-form-all .title {
+    border-bottom: solid 1px #C8C8C8;
+}
+.ncap-form-all .title h3 {
+    font-size: 18px;
+    line-height: 20px;
+    color: #333;
+    font-weight: normal;
+    display: inline-block;
+    min-width: 190px;
+}
+.ncap-form-all .auth-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+}
+.ncap-form-all dt.tit {
+    font-size: 14px;
+    color: #555;
+    background-color: #F5F5F5;
+    padding: 3px 10px 10px;
+    display: block;
+}
+.ncap-form-all dd.opt {
+    font-size: 0;
+    color: #777;
+    background-color: #FFF;
+    margin-top: -1px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #F0F0F0;
+    position: relative;
+    z-index: 1;
+}
+.ncap-account-container {
+    line-height: 20px;
+    display: block;
+    min-height: 20px;
+    padding: 15px 0 10px 0;
+    border-top: dotted 1px #CCC;
+}
+.ncap-account-container .ncp-chk {
+    font-size: 12px;
+    font-weight: normal;
+    color: #777;
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    width: 11%;
+    margin-right: 1%;
+}
+.ncap-account-container-list {
+    font-size: 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 86%;
+    padding-left: 1%;
+	margin: 0;
+    border-left: dotted 1px #CCC;
+}
+.ncap-account-container-list li {
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+    vertical-align: top;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+
+
+#auth_table>tbody>tr>td {
+	padding: 5px;
+}
+
+
+.f-prompt {
+    color: #999;
+}
+
+/*条件间距*/
+.condition{
+	margin-bottom: 30px;
+}
+.rightBtnbo{
+	margin-bottom: 10px;
+}
+
+
+

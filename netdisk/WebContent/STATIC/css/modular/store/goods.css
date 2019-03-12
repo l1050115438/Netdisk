@@ -1,0 +1,54 @@
+/***佣金比例*****/
+.goods{
+	margin-left: 0px!important;
+}
+.dog{
+	line-height:32px;
+}
+
+
+/*********规格添加************/
+.star {
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+/*********品牌*************/
+.papers-img {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.papers-img img {
+    max-width: 100px;
+    max-height: 100px;
+}
+/******品牌添加*******/
+.raTop{
+	padding-top:7px;
+}
+
+.control-label.l-prompt {
+    color: #999;
+    line-height: 34px;
+    padding-left: 15px;
+}
+.required {
+    color: #e02222;
+    font-size: 12px;
+}
+.cur{
+	cursor: pointer;
+}
+.ruleimg{
+    max-width: 150px;
+    max-height: 50px;
+}
+.ruleimg img{
+    width: 150px;
+    height: 50px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,48 @@
+.showfield {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.fixed-table-container .bs-checkbox {
+    vertical-align: middle;
+}
+
+.content-header > h1 > i {
+    cursor: pointer;
+}
+
+.detail_info {
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.detail_info span {
+    width: 40%;
+    display: inline-block;
+}
+
+table.table_list thead th {
+    color: #333;
+    background-color: #f9f9f9;
+    font-weight: 600;
+    border-left: none;
+}
+
+table.table_list tbody td {
+    border-left: none;
+}
+
+table.showfield tbody td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hint {
+    color: #999;
+}
+
+.light {
+    color: #666;
+}

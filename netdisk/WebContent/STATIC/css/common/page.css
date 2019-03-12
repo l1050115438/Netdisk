@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*表格分页*/
+.fixed-table-pagination .pagination a {
+	margin-left: 5px;
+}
+.fixed-table-pagination .pagination-info {
+    float: right;
+}
+.fixed-table-pagination .page-list {
+	margin-top: 2px;
+	padding: 0 15px 0 8px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #dd4b39;
+    border-color: #dd4b39;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #dd4b39;
+}
+.page-list .btn-group .dropdown-toggle {
+	width: 42px;
+	padding: 4px 12px;
+    border-radius: 0px;
+    border: 0;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.page-list .dropdown-menu {
+	min-width: 42px;
+	border-radius: 0px;
+	text-align: center;
+}
+.page-list .dropdown-menu>li>a {
+    padding: 3px 0px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #dd4b39;
+    outline: 0;
+}
+
+.fixed-table-container .bs-checkbox .th-inner {
+    padding: 8px;
+}

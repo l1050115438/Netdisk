@@ -1,0 +1,378 @@
+.border {
+	border-bottom: 2px solid #f4f4f4;
+}
+
+.fixed-table-container thead th .both {
+	background-size: 25px;
+}
+
+
+/*********pending_result.html*******/
+
+.mar_top {
+	margin-top: 20px;
+}
+
+.mar_top label {
+	font-size: 16px;
+}
+
+.tips {
+	margin-top: 8px;
+}
+
+.form-group label {
+	color: #999999;
+}
+
+.form-top {
+	border-top: 2px solid #f4f4f4;
+}
+
+.co {
+	color: #333!important;
+}
+.form-group .thumb-wrap {
+    float: left;
+    width: 80px;
+    margin: 10px 25px 0 0;
+}
+.form-group .thumb-wrap .item-img, .form-group .item-img img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.tc {
+    text-align: center ;
+}
+
+/*******refund_result.html*********/
+
+.re_xian {
+	border-bottom: 2px solid #f4f4f4;
+}
+
+.required {
+	color: #e02222;
+	font-size: 12px;
+}
+
+.top {
+	margin-top: 10px;
+}
+
+.control-label.l-prompt {
+	color: #999;
+	line-height: 34px;
+	padding-left: 15px;
+}
+
+
+/**************商品订单*******************/
+
+.orderTitle {
+	padding: 10px 15px;
+}
+
+.orderTitle span {
+	color: #979797;
+	padding-left: 10px;
+}
+
+.condition {
+	display: inline;
+}
+
+.condition label {
+	color: #444;
+}
+
+.btnSet {
+	width: 50px;
+}
+
+.titleLine {
+	border-bottom: 1px solid #ddd;
+}
+
+.step {
+	margin-top: 35px;
+	height: 80px;
+}
+
+.step ul {
+	margin-left: 60px;
+}
+
+.step ul li {
+	font-size: 14px;
+	background: url(../../../../images/store/huise.png) no-repeat -137px 6px;
+	vertical-align: top;
+	letter-spacing: normal;
+	word-spacing: normal;
+	width: 246px;
+	height: 47px;
+	position: relative;
+	z-index: 1;
+	line-height: 47px;
+	float: left;
+}
+
+.step ul .step1.current {
+	background: url(../../../../images/store/lvse.png) no-repeat -348px 6px;
+	width: 35px;
+}
+
+.step ul li span {
+	position: absolute;
+}
+
+.step .datePosition {
+	width: 160px;
+	top: 32px;
+	left: -44px;
+}
+
+.step .title {
+	width: 120px;
+	top: -35px;
+}
+
+.stepTitle {
+	width: 120px;
+	top: -35px;
+	left: 207px;
+}
+
+.stepdate {
+	width: 160px;
+	top: 31px;
+	left: 165px;
+}
+
+.line {
+	border: 1px solid #ddd;
+}
+
+.box-header .titlebtn {
+	width: 150px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	background-color: #de4b39;
+	color: #fff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+.joint {
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+.outer {
+	padding: 20px 0 30px 0;
+	border-bottom: 1px solid #ddd;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.outer-title {
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.outer label {
+	color: #999;
+}
+
+.m0 {
+	margin: 0;
+}
+
+.customTable {
+	border: 1px solid #ddd;
+}
+
+.outerSpecil {
+	border-bottom: 0;
+}
+
+.detail-img img {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.subtitle {
+	color: #999;
+}
+
+.detail-img {
+	height: 50px;
+	width: 50px;
+	vertical-align: middle;
+	float: left;
+}
+
+.detail-title {
+	margin: -2px 0 0 72px;
+}
+
+.item-content {
+	padding-left: 35px;
+}
+
+.item-content label {
+	text-align: right;
+}
+
+.left-content {
+	float: left;
+}
+
+.left-content .outer-title {
+	margin-bottom: 10px;
+}
+
+.right-content {
+	float: right;
+}
+
+.font12 {
+	font-size: 12px;
+}
+
+.other-info {
+	color: #999;
+}
+
+.right-content strong {
+	font-size: 18px;
+	color: #ff3300;
+	font-weight: bold;
+}
+
+.freight {
+	padding-left: 26px;
+}
+
+.content-width {
+	min-width: 1150px;
+	overflow: auto;
+}
+
+.step ul .current {
+	background: url(../../../../images/store/lvse.png) no-repeat -137px 6px;
+}
+
+.pd40 {
+	padding-left: 40px
+}
+
+
+/***************************/
+
+.papers-img img {
+	width: 180px;
+	height: 120px;
+}
+
+.input-daterange .input-group-addon {
+	border-width: 0;
+}
+
+
+/*********************投诉管理页面*************************/
+
+.control-input {
+	display: inline-block;
+	width: 88%;
+}
+
+.tab-title {
+	border-bottom: 1px solid #ddd;
+	margin: 30px 0;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.theme-title span,
+.tab-title span {
+	padding-left: 6px;
+}
+
+.sign {
+	padding-right: 10px;
+	line-height: 17px;
+}
+
+.theme-title {
+	border-bottom: 1px solid #ddd;
+	margin: 30px 0;
+	font-size: 16px;
+	height: 38px;
+	line-height: 38px;
+}
+
+.theme-title .btn {
+	padding: 3px 12px;
+	margin: 0 0 5px 30px;
+}
+
+.custom-footer {
+	border-top: 0;
+	text-align: left;
+}
+
+.custom-footer input {
+	margin-left: 25%;
+}
+
+
+/*************投诉列表查看****************/
+
+.complaint {
+	width: 100%;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+.complaint-title{
+	    height: 30px;
+    line-height: 25px;
+}
+.outer-wh{
+	width: 60px;
+	height: 60px;
+}
+.img-wh{
+	max-width: 60px;
+    max-height: 60px;
+	
+}
+.imgTip{
+	color: #999;
+}
+.btn-mr{
+	margin-left: 26px;
+}
+.area-border{
+	text-align: center;
+}
+.area-border{
+	    width: 80%;
+    height: 60px;
+    margin: 0 10%;
+}
+.footer-bor{
+	border-top: 0;
+	text-align: center;
+}
+
+
+.showfield {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

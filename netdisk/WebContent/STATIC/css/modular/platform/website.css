@@ -1,0 +1,79 @@
+.nav-tabs-custom > .nav-tabs > li{
+	margin-bottom: 0px;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a{
+	border-right-color: transparent;
+}
+.save{
+	width: 172px;
+}
+
+/*图片上传*/
+.upload-img {
+    position: relative;
+    height: 145px;
+    width: 185px;
+  /*  line-height: 280px;
+    text-align: center;*/
+    background: url(../../images/platform/default.png) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.upload-span{
+	position: relative;
+}
+.upload-txt{
+    width: 200px;
+    height: 34px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    line-height: 34px;
+    text-align: center;
+}
+.upload-btn{
+	height: 34px;
+    position: absolute;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.margin-t-10{
+	margin-top: 10px;
+} 
+/* 星星*/
+.star{
+	color: red;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+/*间距*/
+.space{
+	margin-left: 10px;
+}
+.btn-posi{
+	float: right;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+/*提示文字*/
+.control-txt{
+	padding-top: 7px;
+    display: inline-block;
+}
+/*模态框居中*/
+.modal.fade.in {
+ top: 20%;
+}
+/*图标与字 的位置*/
+.sign{
+    padding-right: 10px;
+    line-height: 17px;
+    }
+    /*文章管理 icheck radio样式设置*/
+label[for="raWidth"]{
+	width: 50%;
+}
+.raTop{
+	padding-top: 7px;
+}
+

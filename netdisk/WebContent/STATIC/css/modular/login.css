@@ -1,0 +1,108 @@
+html,
+body {
+	word-wrap: break-word;
+	font-family: "Microsoft YaHei", "微软雅黑";
+}
+html {
+    height: 100%;
+    
+}
+body.signin {
+    height: auto;
+    background: url(../../images/login-background.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #333333;
+}
+.signinpanel {
+    width: 690px;
+    margin: 6% auto 0;
+    background: #fff;
+    border: 1px solid rgba(255,255,255,.3);
+    -moz-box-shadow: 0 0 20px #ddd;
+    -webkit-box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 0 20px #ddd;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 60px;
+}
+.no-margins {
+    margin: 0;
+   	padding-bottom: 20px;
+    font-weight: bold;
+	font-size: 50px;
+}
+.m-top{
+	margin-top: 20px;
+}
+.form-control{
+  
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: none;
+}
+.signinpanel .btn{
+	border-radius: 3px;
+	width: 60%;
+	margin-top:26px;
+}
+.signinpanel .btn-danger{
+	background-color: #f43650;
+    height: auto;
+}
+.signinpanel input{
+	width: 70%;
+	display: inline;
+    height: 38px;
+}
+.valid-float{
+	float: left;
+}
+input.vcodeImg{
+    width: 168px;
+}
+.m-l{
+	margin-left: 5%;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+.refresh-cursor{
+	cursor: pointer;
+}
+.loginpanel{
+	float: right;
+    margin-top: 420px;
+}
+
+#loginForm span {
+	color: red;
+	line-height: 34px;
+	padding-left: 0;
+}
+#loginForm #validateImg-error{
+	padding-left: 5%;
+}
+div[for="validateImg"] {
+    height: 38px;
+}
+#validateImgShow {
+    height: 31px;
+}
+.errorSpan{
+    line-height: 34px;
+    color: red;
+    height: 34px;
+}
+.help-block{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

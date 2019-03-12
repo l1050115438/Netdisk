@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>云盘首页</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="${rc.contextPath}/statics/css/bootstrap.min.css">
+<link rel="stylesheet" href="${rc.contextPath}/statics/css/font-awesome.min.css">
+<link rel="stylesheet" href="${rc.contextPath}/statics/plugins/jqgrid/ui.jqgrid-bootstrap.css">
+<link rel="stylesheet" href="${rc.contextPath}/statics/plugins/ztree/css/metroStyle/metroStyle.css">
+<link rel="stylesheet" href="${rc.contextPath}/statics/css/main.css">
+<!--
+<link rel="stylesheet" href="${rc.contextPath}/STATIC/js/plugins/uploadifive/uploadifive.css">
+-->
+
+<script src="${rc.contextPath}/statics/libs/jquery.min.js"></script>
+<script src="${rc.contextPath}/statics/plugins/layer/layer.js"></script>
+<script src="${rc.contextPath}/statics/libs/bootstrap.min.js"></script>
+<script src="${rc.contextPath}/statics/libs/vue.min.js"></script>
+<script src="${rc.contextPath}/statics/plugins/jqgrid/grid.locale-cn.js"></script>
+<script src="${rc.contextPath}/statics/plugins/jqgrid/jquery.jqGrid.min.js"></script>
+<script src="${rc.contextPath}/statics/plugins/ztree/jquery.ztree.all.min.js"></script>
+<script src="${rc.contextPath}/statics/js/common.js"></script>
+<script src="${rc.contextPath}/STATIC/js/plugins/uploadifive/jquery.uploadifive.min.js"></script>
+
+</head>
+<body>
+<div style="margin-top:10px; margin-bottom:5px; margin-left:7px; margin-right:7px" id="rrapp" v-cloak>
+	<div v-show="showList">
+		<div class="grid-btn">
+			<!-- 上传 -->
+			<input class="btn btn-primary"  id="fileUploadId" />
+            <a class="btn btn-primary" @click="del"><i class="fa fa-trash-o"></i>&nbsp;删除</a>           
+            <a class="btn btn-primary" @click="download"><i class="fa fa-trash-o"></i>&nbsp;下载</a>
+            <a class="btn btn-primary" @click="returnPage"><i class="fa fa-pencil-square-o"></i>&nbsp;返回</a>
+		</div>
+		<div>{{urls}}</div>
+	    <table id="jqGrid"></table>
+	    <div id="jqGridPager"></div>
+    </div>
+    
+     <div v-show="!showList" class="panel panel-default">
+		<div class="panel-heading">{{title}}</div>
+		<div class="alert alert-info alert-dismissible">
+			<h4><i class="icon fa fa-exclamation-circle"></i> 提示</h4>
+			<p></p>
+			<p>文件预览，不可修改</p>
+		</div>
+		<div class="form-horizontal">
+			{{content}}
+			<div class="form-group">
+				&nbsp;&nbsp;<input type="button" class="btn btn-warning" @click="reload" value="返回"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="${rc.contextPath}/js/netdiskList.js?_${.now?long}"></script>
+</body>
+</html>
